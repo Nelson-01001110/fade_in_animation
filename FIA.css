@@ -1,0 +1,23 @@
+#container{
+    /* For text position(unimportant)*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#fia{
+    /* For animation */
+    animation: fia 3s ease-in ;
+}
+
+/* Main Animation */
+@keyframes fia{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
